@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="http://yourdomain/Test1" version="0.2.1" viewmodes="maximized">
+    <tizen:application id="gM3nuxZhFX.Test1" package="gM3nuxZhFX" required_version="2.2"/>
+    <content src="app.html"/>
+    <feature name="http://tizen.org/feature/screen.size.all"/>
+    <icon src="icon.png"/>
+    <name>Test1</name>
+    <tizen:privilege name="http://tizen.org/privilege/application.launch"/>  
+	 
+	 
+	 
+	 
+	 
+</widget>

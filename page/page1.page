@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<tizenFile>
+    <fileInfo>
+        <type>tizen-page</type>
+        <version>0.0.2</version>
+        <desc>Tizen Web UI Builder Project</desc>
+    </fileInfo>
+    <document>
+        <documentInfo>
+            <title>test</title>
+            <author>noname</author>
+            <version>0.1.1</version>
+        </documentInfo>
+        <documentData>
+            <tizen.css>
+                <tizen.selector name="#gridcontainer" partId="gridcontainer">
+                    <tizen.style name="position" value="relative"/>
+                    <tizen.style name="width" value="80%"/>
+                </tizen.selector>
+            </tizen.css>
+            <tizen.doc>
+                <tizen.page id="page1" data-dom-cache="false" data-title="">
+                    <tizen.content id="content1" data-handler="false">
+                        <html.divcontrol id="gridcontainer" style="overflow: hidden;" class="grid" onswipe="gridcontainer_onswipe">
+                            <html.divcontrol id="row1" style="overflow: hidden;" class="row">
+                                <html.divcontrol id="cell11" style="overflow: hidden;" class="cell"/>
+                                <html.divcontrol id="cell12" style="overflow: hidden;" class="cell"/>
+                                <html.divcontrol id="cell13" style="overflow: hidden;" class="cell"/>
+                                <html.divcontrol id="cell14" style="overflow: hidden;" class="cell"/>
+                            </html.divcontrol>
+                            <html.divcontrol id="row2" style="overflow: hidden;" class="row">
+                                <html.divcontrol id="cell21" style="overflow: hidden;" class="cell"/>
+                                <html.divcontrol id="cell22" style="overflow: hidden;" class="cell"/>
+                                <html.divcontrol id="cell23" style="overflow: hidden;" class="cell"/>
+                                <html.divcontrol id="cell24" style="overflow: hidden;" class="cell"/>
+                            </html.divcontrol>
+                            <html.divcontrol id="row3" style="overflow: hidden;" class="row">
+                                <html.divcontrol id="cell31" style="overflow: hidden;" class="cell"/>
+                                <html.divcontrol id="cell32" style="overflow: hidden;" class="cell"/>
+                                <html.divcontrol id="cell33" style="overflow: hidden;" class="cell"/>
+                                <html.divcontrol id="cell34" style="overflow: hidden;" class="cell"/>
+                            </html.divcontrol>
+                            <html.divcontrol id="row4" style="overflow: hidden;" class="row">
+                                <html.divcontrol id="cell41" style="overflow: hidden;" class="cell"/>
+                                <html.divcontrol id="cell42" style="overflow: hidden;" class="cell"/>
+                                <html.divcontrol id="cell43" style="overflow: hidden;" class="cell"/>
+                                <html.divcontrol id="cell44" style="overflow: hidden;" class="cell"/>
+                            </html.divcontrol>
+                        </html.divcontrol>
+                        <html.heading id="heading1" text="Heading" size="3"/>
+                    </tizen.content>
+                </tizen.page>
+            </tizen.doc>
+        </documentData>
+    </document>
+</tizenFile>
